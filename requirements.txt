@@ -1,0 +1,10 @@
+# Core dependencies for Mexico device database
+
+pandas>=2.0.0
+pdfplumber>=0.11.0
+
+# For reading/writing Parquet files (used in build_mexico_db.py)
+pyarrow>=14.0.0
+
+# Optional alternative Parquet engine (not required if pyarrow is installed)
+# fastparquet>=2023.4.0
